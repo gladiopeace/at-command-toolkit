@@ -1,0 +1,15 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource>
+        <file>images/action_refresh.gif</file>
+        <file>images/bullet_go.png</file>
+        <file>images/connect.png</file>
+        <file>images/disconnect.png</file>
+        <file>images/door_open.png</file>
+        <file>images/font.png</file>
+        <file>images/icon_info.gif</file>
+        <file>images/icon_settings.gif</file>
+        <file>images/mobile_phone.png</file>
+        <file>images/page_white.png</file>
+    </qresource>
+</RCC>
