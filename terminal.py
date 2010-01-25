@@ -41,10 +41,6 @@ class TerminalWidget(QWidget):
     """
 
     def __init__(self, parent=None):
-        """
-        The Terminal widget is expected to be passed a serial object (from
-        the serial module) as a parameter that is already open & connected.
-        """
         QWidget.__init__(self, parent)
 
         # Create the terminal widgets
@@ -111,9 +107,6 @@ class TerminalWidget(QWidget):
         trailing white space is stripped from the command string.
         """
         command = str(command).strip()
-
-        # Store the command in the command history
-        self.command_txt.add_command(command)
 
         try:
 
