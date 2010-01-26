@@ -162,7 +162,7 @@ class MainWindow(QMainWindow):
             self.connect_com_action.setDisabled(True)
         else:
             if exit_on_fail:
-                self.close()
+                sys.exit(0) # self.close() is not working here
     
     def disconnect_com_port(self):
 
