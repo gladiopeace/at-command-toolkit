@@ -86,7 +86,7 @@ class DtmfKeypadWidget(QWidget):
         keypad_grpbox.setLayout(keypad_layout)
 
         self.command_string = QLineEdit()
-        send_string_btn = QPushButton(QIcon(':/images/next.png'), '')
+        send_string_btn = QPushButton(QIcon(':/images/bullet_go.png'), '')
         send_string_grpbox = QGroupBox(self.tr('Send String of Tones:'))
         send_string_layout = QVBoxLayout()
         send_string_layout.addWidget(QLabel(self.tr('Send a series of DTMF tones.')))
